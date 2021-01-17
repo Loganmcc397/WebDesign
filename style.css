@@ -1,22 +1,4 @@
-article p {
-    color: yellow;
-}
 body {
-    color: yellow;
-    background-color:black;
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 header {
-    background-color:rgb(94, 93, 93);
-}
-h4 {
-    color: white;
-}
-h6 {
-    color:white;
-}
-h2 {
-    color:white;
 }
