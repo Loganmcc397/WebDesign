@@ -1,6 +1,11 @@
+body, html{
+    height: 100%;
+}
+
 article p {
     color: yellow;
 }
+
 body {
     color: yellow;
     background-color:black;
@@ -19,4 +24,21 @@ h6 {
 }
 h2 {
     color:white;
+}
+
+.parallax{
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url("wondows.jpg");
+}
+
+iframe[seamless]{
+    border: none;
+    width: 100%;
+    height: 500px;
 }
