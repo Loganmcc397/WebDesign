@@ -2,10 +2,6 @@ body, html{
     height: 100%;
 }
 
-article p {
-    color: yellow;
-}
-
 body {
     color: rgb(0, 204, 255);
     background-color:black;
@@ -21,7 +17,7 @@ h6 {
     color:white;
 }
 h2 {
-    color:white;
+    color: rgb(255, 255, 0);
 }
 
 .parallax{
@@ -48,7 +44,7 @@ h2 {
 }
 
 #parallax4{
-
+    background-image: url("BBQ.jpg")
 }
 
 iframe[seamless]{
