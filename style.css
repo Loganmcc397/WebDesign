@@ -7,15 +7,13 @@ article p {
 }
 
 body {
-    color: yellow;
+    color: rgb(0, 204, 255);
     background-color:black;
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
 }
-header {
-    background-color:rgb(94, 93, 93);
-}
+
 h4 {
     color: white;
 }
@@ -35,6 +33,22 @@ h2 {
     background-size: cover;
 
     background-image: url("wondows.jpg");
+}
+
+#parallax1{
+    background-image: url("DisneyWorld.jpg");
+}
+
+#parallax2{
+    background-Image: url("OrlandoImage1.jpg");
+}
+
+#parallax3{
+    background-Image: url("OrlandoImage2.jpg");
+}
+
+#parallax4{
+
 }
 
 iframe[seamless]{
