@@ -1,16 +1,15 @@
-article p {
-    color: yellow;
+body, html{
+    height: 100%;
 }
+
 body {
-    color: yellow;
+    color: rgb(0, 204, 255);
     background-color:black;
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
 }
-header {
-    background-color:rgb(94, 93, 93);
-}
+
 h4 {
     color: white;
 }
@@ -18,8 +17,64 @@ h6 {
     color:white;
 }
 h2 {
-    color:white;
+    color: rgb(255, 255, 0);
 }
-#menu{
-    color:white
+
+.parallax{
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url("wondows.jpg");
 }
+
+#parallax1{
+    background-image: url("DisneyWorld.jpg");
+}
+
+#parallax2{
+    background-Image: url("OrlandoImage1.jpg");
+}
+
+#parallax3{
+    background-Image: url("OrlandoImage2.jpg");
+}
+
+#parallax4{
+    background-image: url("BBQ.jpg")
+}
+
+iframe[seamless]{
+    border: none;
+    width: 100%;
+    height: 500px;
+}
+
+button {
+    background-color: rgb(0,0,100);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 7px #333;
+    transition-duration: 0.1s;
+    width: 200px;
+    margin: 15px;
+  }
+  
+  button:hover{
+    background-color: rgb(0,0,110)
+  }
+  
+  button:active {
+    box-shadow: 0 3px #444;
+    transform: translateY(4px);
+  }
+
+  a {
+      text-decoration: none;
+      color: white;
+  }

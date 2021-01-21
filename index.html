@@ -5,24 +5,50 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1>NLC Orlando FLorida</h1>
+        <header id="header">
+            <h1>NLC Orlando Florida</h1>
+            <!--<img src="Wildcat.jpg"  width="150px" alt="Wildcat"/>-->
             <nav>
-                <a href="index.html">Home</a>
-                <a href="attractions.html">Attractions</a>
-                <a href="transportation.html">Transportation</a>
-                <a href="details.html">Details</a>
-                <a href="food.html">Food</a>
+                <button onclick="document.getElementById('attractions').scrollIntoView();">Attractions</button>
+                <button onclick="document.getElementById('transportation').scrollIntoView();">Transportation</button>
+                <button onclick="document.getElementById('details').scrollIntoView();">Details</button>
+                <button onclick="document.getElementById('food').scrollIntoView();">Food</button>
             </nav>
+            <hr>
         </header>
-        
-        <main>
-            <article>
+            <div id = "home">
                 <h2>Home</h2>
                 <hr>
-                <p>Welcome to the NLC in Orlando Florida</p>
-            </article>
-        </main>
+                <p></p>
+            </div>
+
+            <div class="parallax" id="parallax1"></div>
+            <div id="attractions">
+                <iframe src="attractions.html" scrolling="no" seamless></iframe>
+                <br>
+                <button onclick="document.getElementById('header').scrollIntoView();">Scroll to Top</button>
+            </div>
+
+            <div class="parallax" id="parallax2"></div>
+            <div id="transportation">
+                <iframe src="transportation.html" scrolling="no" seamless></iframe>
+                <br>
+                <button onclick="document.getElementById('header').scrollIntoView();">Scroll to Top</button>
+            </div>
+
+            <div class="parallax" id="parallax3"></div>
+            <div id="details">
+                <iframe src="details.html" scrolling="no" seamless></iframe>
+                <br>
+                <button onclick="document.getElementById('header').scrollIntoView();">Scroll to Top</button>
+            </div>
+
+            <div class="parallax" id="parallax4"></div>
+            <div id="food">
+                <iframe src="food.html" scrolling="no" seamless></iframe>
+                <br>
+                <button onclick="document.getElementById('header').scrollIntoView();">Scroll to Top</button>
+            </div>
         <footer>
 
         </footer>
